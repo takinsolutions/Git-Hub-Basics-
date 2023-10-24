@@ -1,0 +1,38 @@
+# Personal-Access-Token-PAT-
+
+The goal of this repository is to show you the right and easy way to 
+generate a Personal Access Token, that can be used for a verification 
+and authentication for specific,private repositories. 
+
+## Step 1: 
+
+* Navigate to the right-side of the github console.
+* Under your account you can locate the <i> Settings </i> Tab
+
+![Screenshot 2023-10-10 at 17 05 14](https://github.com/AlexMitev21/Personal-Access-Token-PAT-/assets/143809569/4d0541d5-be69-44f9-99e1-377706a29c8d)
+
+&nbsp;
+
+* Once you hace clicked on it there will be a new collum opened.
+* On the bootom of the collom, you will see a <i> Developer Settings </i>
+
+![Screenshot 2023-10-10 at 17 06 18](https://github.com/AlexMitev21/Personal-Access-Token-PAT-/assets/143809569/0cd690c4-b9e4-49b0-8eda-0f3d321572ee)
+
+&nbsp;
+
+## Step 2:
+
+* Give a name of the (PAT)
+
+  ![Screenshot 2023-10-10 at 17 07 19](https://github.com/AlexMitev21/Personal-Access-Token-PAT-/assets/143809569/f0924b8e-e367-4b66-b82a-09adedefe769)
+
+## Step 3:
+
+* !!! Once the PAT is generated, copy the code and keep it safe !!!
+![Screenshot 2023-10-10 at 17 08 30](https://github.com/AlexMitev21/Personal-Access-Token-PAT-/assets/143809569/0a7e81df-e40a-452d-8672-34699ad676e2)
+
+
+NOTE: IMPORTANT!!! 
+
+Once the PAT is generated, keep it safe. The PAT, will be used in the future.
+The PAT will be used for remote login and git pulls, and authentication. 
