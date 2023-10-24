@@ -1,0 +1,75 @@
+# Git-Commands
+
+The main goal of the repository is to learn how to add, commit and push changes to the remote repository.
+For that need you will need to be able to know how to generate a PAT. If you don't know how to do that, 
+please review the <i> Personal-Access-Token-PAT- </i> Repository. [GitHub Repository](https://github.com/AlexMitev21/Personal-Access-Token-PAT-)
+
+## Step 1:
+
+1. Open a terminal, and navigate to your working directory where the project is located
+2. You can open a terminal while using the Visual Studio Code, by clicking a new terminal:
+&nbsp;
+
+<img width="725" alt="Screenshot 2023-10-11 at 10 34 58" src="https://github.com/AlexMitev21/Git-Commands/assets/143809569/973399b1-fc10-4aa3-889e-a985282aebc8">
+
+&nbsp;
+
+3. Once you have your terminal open you need to run the following commands: 
+
+```
+echo "# YOUR_PROJECT_NAME" >> README.md
+```
+* This command appends the text "# mate1" to a file named "README.md." If the file doesn't exist, it creates the file.
+  This is often used to add a title or description to your project's README file.
+
+&nbsp;
+
+```
+git init
+```
+* This initializes a new Git repository in the current directory.
+  It sets up the necessary data structures and files for version control.
+&nbsp;
+
+```
+git remote add origin https://YOUR_USERNAME:YOUR_PERSONAL_ACCESS_TOKEN@github.com/YOUR_GITHUB_URL
+
+```
+for example:
+
+```
+git remote add origin https://AlexMitev21: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@github.com/AlexMitev21/mate1.git
+```
+* This command adds a remote repository named "origin" with the URL specified. It's configuring your local Git repository to connect to a remote repository on GitHub.
+  The URL contains your GitHub username, a Personal Access Token (PAT), and the repository URL.
+
+  &nbsp;
+
+```
+git commit -m "first commit"
+```
+* This command commits the changes made to your Git repository. 
+  The -m flag is used to specify a commit message, which briefly describes the changes you made. In this case, the commit message is "first commit."
+
+```
+git branch -M main
+```
+* This renames the default branch of your repository to "main." In Git, the default branch used to be called "master,"
+  but it is being replaced with more inclusive terminology, such as "main."
+
+```
+git commit -m "Initial commit"
+```
+* This is another commit command with a different commit message.
+  It commits the staged changes to the Git repository. The commit message is "Initial commit."
+
+```
+git push -u origin main
+```
+* This command pushes the committed changes from your local Git repository to the remote repository on GitHub.
+  The -u flag is used to set up a tracking relationship between the local branch "main" and the remote branch "main" on GitHub's "origin" repository.
+  It makes it easier to push and pull changes in the future.
+
+&nbsp; 
+
+By following these instructions, you can now navigate to the actual URL of your repository, so you can see the changes. 
