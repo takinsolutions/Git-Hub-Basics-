@@ -1,0 +1,32 @@
+# How_to_Git
+Introduction to Github
+
+This repository has the goal to educate the user on how to properly use the github platform. 
+By following the below, provided steps, you can set up the stepping stone for expaning your 
+knoweldge. Each and evey command is explained in details, including some screenshot for better
+interface visualization. 
+
+## Create a repository: 
+
+### Step 1
+
+* First you need to navigate to the github platform console.
+* On the Upper-right corner, you see a button, that says new.
+* Click on the button and you will be redirected to a new web page so you can modify your repository.
+
+
+![Screenshot 2023-10-10 at 17 01 57](https://github.com/AlexMitev21/How_to_Git/assets/143809569/79343029-c4e9-4876-980b-e12ef24c9234)
+
+&nbsp;
+
+### Step 2
+
+* Now you have to name the repository and configure it.
+* Recomened to make your repository <i>Private</i>
+* Do not choose the option to <i>" Add a README file </i>, 
+  because you will be creating that later on. 
+* Do not chose any license from the dropdown menu. 
+* Click <i>Create repository</i>
+
+
+![Screenshot 2023-10-10 at 17 02 18](https://github.com/AlexMitev21/How_to_Git/assets/143809569/7eaea0ef-d3a9-4501-8134-31dac224fcda)
